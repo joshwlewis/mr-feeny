@@ -7,6 +7,6 @@
     { "url": "https://github.com/joshwlewis/heroku-buildpack-elixir#heroku-ci" }
   ],
   "scripts": {
-    "test-setup": "addon-wait"
+    "test-setup": "bin/addon-wait"
   }
 }
