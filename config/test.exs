@@ -13,4 +13,3 @@ config :logger, level: :warn
 config :mrfeeny, Mrfeeny.Repo,
   adapter: Ecto.Adapters.Postgres,
   url: System.get_env("DATABASE_URL"),
-  pool: Ecto.Adapters.SQL.Sandbox
