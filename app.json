@@ -1,5 +1,5 @@
 {
   "buildpacks": [
-    { "url": "https://joshwlewis/heroku-buildpack-elixir#heroku-ci" }
+    { "url": "https://github.com/joshwlewis/heroku-buildpack-elixir#heroku-ci" }
   ]
 }
