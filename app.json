@@ -3,10 +3,6 @@
     "heroku-postgresql"
   ],
   "buildpacks": [
-    { "url": "https://github.com/heroku/heroku-buildpack-addon-wait" },
     { "url": "https://github.com/joshwlewis/heroku-buildpack-elixir#heroku-ci" }
-  ],
-  "scripts": {
-    "test-setup": "bin/addon-wait"
-  }
+  ]
 }
