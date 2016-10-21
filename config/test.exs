@@ -12,8 +12,5 @@ config :logger, level: :warn
 # Configure your database
 config :mrfeeny, Mrfeeny.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
-  database: "mrfeeny_test",
-  hostname: "localhost",
+  url: System.get_env("DATABASE_URL"),
   pool: Ecto.Adapters.SQL.Sandbox
