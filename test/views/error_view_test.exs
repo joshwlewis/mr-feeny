@@ -18,4 +18,8 @@ defmodule Mrfeeny.ErrorViewTest do
     assert render_to_string(Mrfeeny.ErrorView, "505.html", []) ==
            "Internal server error"
   end
+  
+  test "a is a" do
+    assert "a" == "a"
+   end
 end
