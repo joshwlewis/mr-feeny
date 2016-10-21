@@ -22,7 +22,7 @@ config :logger, :console,
   format: "$time $metadata[$level] $message\n",
   metadata: [:request_id]
 
-IO.pust("MIX_ENV: #{Mix.env}")
+IO.puts("MIX_ENV: #{Mix.env}")
 IO.puts("DATABASE_URL: #{System.get_env("DATABASE_URL")}")
 
 # Import environment specific config. This must remain at the bottom
