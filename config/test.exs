@@ -12,4 +12,4 @@ config :logger, level: :warn
 # Configure your database
 config :mrfeeny, Mrfeeny.Repo,
   adapter: Ecto.Adapters.Postgres,
-  url: System.get_env("DATABASE_URL"),
+  url: System.get_env("DATABASE_URL")
