@@ -36,6 +36,7 @@ defmodule Mrfeeny.Mixfile do
      {:postgrex, ">= 0.0.0"},
      {:phoenix_html, "~> 2.6"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
+     {:spout, "~> 0.0.1", only: :test},
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"}]
   end
